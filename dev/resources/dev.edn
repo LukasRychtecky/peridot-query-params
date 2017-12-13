@@ -1,0 +1,2 @@
+{:duct.core/environment :development
+ :duct.core/include ["peridot_query_params/config"]}

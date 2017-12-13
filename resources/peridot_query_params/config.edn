@@ -1,0 +1,10 @@
+{:duct.core/project-ns  peridot-query-params
+ :duct.core/environment :production
+
+ :duct.module/logging {}
+ :duct.module.web/site {}
+ :duct.router/cascading
+ [#ig/ref :peridot-query-params.handler/example]
+
+ :peridot-query-params.handler/example
+ {}}
